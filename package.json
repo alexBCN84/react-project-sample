@@ -1,0 +1,38 @@
+{
+    "name": "react-project-template",
+    "version": "1.0.0",
+    "description": "This is a basic template allowing you start a new React project with the basic dependencies",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "build": "webpack --progress",
+        "prestart": "npm run build",
+        "start": "opener dist/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexBCN84/react-project-template.git"
+    },
+    "author": "Alex Banks <alejandro.ginesmartinez@gmail.com> (http://www.alexgines.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexBCN84/react-project-template/issues"
+    },
+    "homepage": "https://github.com/alexBCN84/react-project-template#readme",
+    "dependencies": {
+        "react": "16.0.0",
+        "react-dom": "16.0.0"
+    },
+    "devDependencies": {
+        "opener": "1.4.3",
+        "babel-core": "6.26.0",
+        "babel-loader": "7.1.2",
+        "babel-preset-env": "1.6.0",
+        "babel-preset-react": "6.24.1",
+        "babel-preset-stage-0": "6.24.1",
+        "css-loader": "0.28.7",
+        "postcss-loader": "2.0.6",
+        "style-loader": "0.18.2",
+        "webpack": "3.6.0"
+    }
+}
