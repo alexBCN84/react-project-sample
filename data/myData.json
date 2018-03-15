@@ -1,0 +1,36 @@
+[
+    {
+        "sectionName": "Section number 1",
+        "liElements": [
+            { "prop1": "prop1 Name", "prop2": 1, "prop3": "prop3 Name" },
+            { "prop1": "prop1 Name", "prop2": 1, "prop3": "prop3 Name" },
+            { "prop1": "prop1 Name", "prop2": 2, "prop3": "prop3 Name" },
+            { "prop1": "prop1 Name", "prop2": 1, "prop3": "prop3 Name" },
+            { "prop1": "prop1 Name", "prop2": 0.5, "prop3": "prop3 Name" },
+            { "prop1": "prop1 Name", "prop2": 3, "prop3": "prop3 Name" }
+        ],
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+            "Cras varius purus nisi, at interdum eros sollicitudin a.",
+            "Fusce vulputate ullamcorper egestas.",
+            "Etiam malesuada odio risus, nec euismod ante blandit eget.",
+            "Suspendisse lobortis, orci eu tempor ullamcorper, turpis tortor ultricies nunc, ac tempor quam eros vitae tortor.",
+            "Etiam malesuada odio risus, nec euismod ante blandit eget."
+        ]
+    },
+    {
+        "sectionName": "Section number 2",
+        "liElements": [
+            { "prop1": "propA Name", "prop2": 1, "prop3": "propB Name" },
+            { "prop1": "propA Name", "prop2": 1, "prop3": "propB Name" },
+            { "prop1": "propA Name", "prop2": 2, "prop3": "propB Name" },
+            { "prop1": "propA Name", "prop2": 2, "prop3": "propB Name"},
+            { "prop1": "propA Name", "prop2": 3, "prop3": "propB Name" }
+        ],
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+            "Cras varius purus nisi, at interdum eros sollicitudin a.",
+            "Aliquam volutpat lectus mauris, nec hendrerit ligula pulvinar vitae."
+        ]
+    }
+]

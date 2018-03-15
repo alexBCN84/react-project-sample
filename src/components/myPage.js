@@ -1,10 +1,10 @@
 import PageSection from './PageSection'
-import '../../stylesheets/myStyless.css'
+import '../../stylesheets/myStyles.css'
 
-const myPage = ({ pageSections }) =>
+const MyPage = ({ pageSections }) =>
     <article>
         <header>
-            <h1>Delicious Recipes</h1>
+            <h1>My React Page</h1>
         </header>
         <div className="recipes">
             { pageSections.map((pageSection, i) =>
@@ -13,6 +13,6 @@ const myPage = ({ pageSections }) =>
         </div>
     </article>
 
-myPage.displayName = 'my Page'
+MyPage.displayName = 'my Page'
 
-export default myPage
+export default MyPage
