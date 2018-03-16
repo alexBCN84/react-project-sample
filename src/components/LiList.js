@@ -1,5 +1,5 @@
 import LiElement from './LiElement'
-
+import React from 'react'
 export const LiList = ({ list }) =>
     <ul className="ingredients">
         {list.map((liElement, i) =>

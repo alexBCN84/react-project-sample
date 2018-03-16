@@ -1,3 +1,4 @@
+import React from 'react'
 const ParagraphsList = ({ title, paragraphs }) =>
     <section className="instructions">
         <h2>{title}</h2>

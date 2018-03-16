@@ -32,7 +32,7 @@ article>header {
     margin-bottom: 1em;
 }
 
-div.recipes>section {
+div.pageSections>section {
     border: double 4px saddlebrown;
     padding: 1em;
     background-color: white;

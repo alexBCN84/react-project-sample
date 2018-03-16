@@ -1,3 +1,4 @@
+import React from 'react'
 const LiElement = ({ prop1, prop2, prop3 }) =>
     <li>
         <span className="amount">{prop1} </span>

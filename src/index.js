@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
-import MyPage from './components/myPage'
-import data from '../data/myData'
+import MyPage from './components/MyPage'
+import data from './data/myData'
 
 window.React = React
 
